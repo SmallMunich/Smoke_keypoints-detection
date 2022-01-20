@@ -1,0 +1,1 @@
+python tools/plain_train_net.py --eval-only True --config-file "configs/smoke_gn_vector.yaml"

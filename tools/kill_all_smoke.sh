@@ -1,0 +1,1 @@
+ps -ef | grep python | grep smoke | grep -v grep | awk '{print $2}'| xargs -i kill -9 {}
